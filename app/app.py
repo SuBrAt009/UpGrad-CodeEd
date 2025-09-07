@@ -7,7 +7,7 @@ from models import db, Course
 from routes.auth import bp as auth_bp
 from routes.profile import bp as profile_bp
 from routes.suggest import bp as suggest_bp
-
+from routes.quiz_proxy import bp as quiz_proxy_bp
 
 def create_app():
     cfg = load_settings()
@@ -37,7 +37,7 @@ def create_app():
     app.register_blueprint(auth_bp,    url_prefix="/api/auth")
     app.register_blueprint(profile_bp, url_prefix="/api/profile")
     app.register_blueprint(suggest_bp, url_prefix="/api/suggestions")
-
+    app.register_blueprint(quiz_proxy_bp)
 
     @app.get("/")
     def health():

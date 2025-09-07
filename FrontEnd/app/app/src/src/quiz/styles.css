@@ -1,0 +1,27 @@
+/* src/quiz/styles.css */
+.quiz-wrap { padding: 24px; }
+.quiz-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:16px; }
+.quiz-header .left { display:flex; align-items:center; gap:12px; }
+.back-btn { padding:6px 10px; border:1px solid #ddd; background:#fff; border-radius:8px; cursor:pointer; }
+.hud { display:flex; gap:10px; font-weight:500; }
+.primary { padding:10px 18px; border:none; border-radius:10px; cursor:pointer; }
+
+.banner { margin:12px 0; padding:10px 12px; border-radius:8px; }
+.banner.ok { background:#e9f7ef; border:1px solid #b2dfbc; }
+.banner.bad { background:#fdecea; border:1px solid #f5b4ad; }
+
+.qcard { border:1px solid #eee; border-radius:12px; padding:16px; }
+.qhead { display:flex; gap:10px; align-items:center; color:#666; }
+.qtext { margin:12px 0 16px; font-size:1.05rem; }
+.opts { display:flex; flex-direction:column; gap:10px; }
+.opt { text-align:left; padding:10px 12px; border:1px solid #ddd; border-radius:10px; background:#fff; cursor:pointer; }
+.opt:hover { background:#fafafa; }
+.hint-btn { margin-top:12px; padding:8px 12px; border:1px dashed #aaa; background:#fff; border-radius:10px; cursor:pointer; }
+
+.end .final { display:flex; gap:20px; align-items:center; margin:12px 0; }
+.scorebox { display:flex; align-items:flex-end; gap:6px; }
+.scorebox .big { font-size:42px; line-height:1; }
+.scorebox .outof { color:#777; }
+.metrics { display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:6px 18px; }
+.buttons { display:flex; gap:12px; margin:10px 0 16px; }
+.summary .explain { border-top:1px solid #eee; padding:10px 0; }
