@@ -189,22 +189,5 @@ The platform supports two distinct user types:
 2. Deploy the `build` folder to your hosting service
 3. Update CORS origins in backend configuration
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin feature-name`
-5. Submit a pull request
 
-## 📄 License
-
-This project is part of the UpGrad CodeEd program and is intended for educational purposes.
-
-## 🆘 Support
-
-For support and questions, please contact the development team or create an issue in the repository.
-
----
-
-**Built with ❤️ for the UpGrad CodeEd program**# UpGrad-CodeEd
